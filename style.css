@@ -1,0 +1,34 @@
+/* this a comment  */
+
+body {
+    background-color: #E6E6FA;
+    font-family: "Gill Sans", sans-serif;
+    color: #1B365C;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 3em;     
+}
+
+/* # is for id */
+#container {
+    margin: 100px auto;
+    /*width: 600px;*/
+    min-width: 400px;
+    max-width: 950px;
+}
+
+/* . is for class */
+img.link {
+    /*width: 200px;*/
+    width: 100%;
+    border: 4mm ridge rgba(173, 165, 125, 68);
+}
+
+#choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
