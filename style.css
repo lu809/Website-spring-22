@@ -7,9 +7,13 @@ body {
     text-align: center;
 }
 
+p{
+    font-size: 30px;
+}
+
 h1 {
-    font-family: Georgia, serif;
-    font-size: 3em;     
+    font-family: Impact, serif;
+    font-size: 3.5em;     
 }
 
 /* # is for id */
@@ -24,7 +28,7 @@ h1 {
 img.link {
     /*width: 200px;*/
     width: 100%;
-    border: 4mm ridge rgba(173, 165, 125, 68);
+    border: 3mm ridge rgba(173, 165, 125, 68);
 }
 
 #choices {
